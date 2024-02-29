@@ -1,0 +1,228 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section style="display: none;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+                <h3 class="text-center">Tạo sự kiện</h3>
+                <form role="form" id="contact-form" method="post" autocomplete="off">
+                    <div class="card-body">
+                        <div class="input-group input-group-static mb-4">
+                            <label for="exampleFormControlSelect1" class="ms-0">Loại sự kiện</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option value="0" selected></option>
+                                <option value="1">Thông thường</option>
+                                <option value="2">Mở bán dự án bđs</option>
+                                <option value="3">Đám cưới</option>
+                            </select>
+                        </div>
+                        <div class="input-group input-group-static mb-4">
+                            <label>Tên sự kiện</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="input-group mb-4 input-group-static">
+                            <label>Địa điểm tổ chức</label>
+                            <textarea name="location" class="form-control" id="location" rows="2"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="input-group input-group-static mb-4">
+                                    <label>Thời gian bắt đầu</label>
+                                    <input type="datetime-local" class="form-control" min="1800-01-01 00:00" max="2030-12-31 23:59">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                            </div>
+                        </div>
+                        <div class="form-check form-switch mb-4 d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked="">
+                            <label class="form-check-label ms-3 mb-0" for="flexSwitchCheckDefault">Đồng ý với <a href="javascript:;" class="text-dark"><u>các điều khoản và điều kiện</u></a>.</label>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                            <button type="submit" class="btn bg-gradient-dark w-100">Tạo</button>
+                        </div>
+                        <p class="text-danger">
+                            Tài khoản miễn phí chỉ tối đa 50 khách mời, để không bị giới hạn vui lòng <a class="text-info text-decoration-underline" href="/buy">nâng cấp tài khoản</a>.
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 my-auto">
+                <h3>Tầm nhìn</h3>
+                <p class="pe-5">Đem đến cho bạn một công cụ nhanh chóng, tiện lợi và nhiều tính năng cần thiết để tổ chức các sự kiện với số lượng người tham dự lớn.</p>
+                <a href="javascript:;" class="text-primary icon-move-right">
+                    Bắt đầu ngay
+                    <i class="fas fa-arrow-right text-sm ms-1"></i>
+                </a>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                        <i class="far fa-calendar-check opacity-10"></i>
+                    </div>
+                    <div class="description ps-3">
+                        <p class="mb-0"><h6>Sự kiện thường niên công ty</h6>Quản lý khách mời, gửi thiệp mời, checkin sự kiện, quay số may mắn,...</p>
+                    </div>
+                </div>
+
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                        <i class="far fa-building opacity-10"></i>
+                    </div>
+                    <div class="description ps-3">
+                        <p class="mb-0"><h6>Mở bán dự án bất động sản</h6>Thông tin dự án, gửi thư mời, kiểm soát ra vào, quản lý căn hộ,...</p>
+                    </div>
+                </div>
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape  bg-gradient-primary shadow-primary text-center">
+                        <i class="fas fa-heart opacity-10"></i>
+                    </div>
+                    <div class="description ps-3">
+                        <p class="mb-0"><h6>Tiệc cưới cho cặp đôi</h6>Quản lý khách mời, địa điểm, hình ảnh dâu rể, gửi tiền mừng online,...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- -------- START Features w/ pattern background & stats & rocket -------- -->
+<section class="pb-5 position-relative bg-gradient-dark mx-n3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-start mb-5 mt-5">
+                <h3 class="text-white z-index-1 position-relative">Đội ngũ phát triển</h3>
+                <p class="text-white opacity-8 mb-0">There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="card card-profile mt-4">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                            <a href="javascript:;">
+                                <div class="p-3 pe-md-0">
+                                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-8 col-md-6 col-12 my-auto">
+                            <div class="card-body ps-lg-0">
+                                <h5 class="mb-0">Emma Roberts</h5>
+                                <h6 class="text-info">UI Designer</h6>
+                                <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="card card-profile mt-lg-4 mt-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                            <a href="javascript:;">
+                                <div class="p-3 pe-md-0">
+                                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/bruce-mars.jpg" alt="image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-8 col-md-6 col-12 my-auto">
+                            <div class="card-body ps-lg-0">
+                                <h5 class="mb-0">Triều Lê</h5>
+                                <h6 class="text-info">Boss</h6>
+                                <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------- END Features w/ pattern background & stats & rocket -------- -->
+<section class="pt-4 pb-6" id="count-stats">
+    <div class="container">
+        <div class="row justify-content-center mb-7">
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <img class="w-100 opacity-7" src="../assets/img/logos/logo-netcore.png" alt="logo">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <img class="w-100 opacity-7" src="../assets/img/logos/logo-boostrap.png" alt="logo">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4">
+                <img class="w-100 opacity-7" src="../assets/img/logos/logo-creativetim.png" alt="logo">
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-md-3">
+                <h1 class="text-gradient text-info" id="state1" countTo="5234">800+</h1>
+                <h5>Sự kiện</h5>
+                <p>Đồng hành cùng hơn 800 sự kiện</p>
+            </div>
+            <div class="col-md-3">
+                <h1 class="text-gradient text-info"><span id="state2" countTo="3400">1000</span>+</h1>
+                <h5>Quan tâm</h5>
+                <p>Hơn 1000 người dùng quan tâm và sử dụng công cụ</p>
+            </div>
+            <div class="col-md-3">
+                <h1 class="text-gradient text-info"><span id="state3" countTo="24">24</span>/7</h1>
+                <h5>Hỗ trợ</h5>
+                <p>Hỗ trợ bất cứ khi nào bạn cần</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+<section>
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+                <h3 class="text-center">Liên hệ với chúng tôi</h3>
+                <form role="form" id="contact-form" method="post" autocomplete="off">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-group input-group-dynamic mb-4">
+                                    <label class="form-label">Họ và tên</label>
+                                    <input class="form-control" aria-label="First Name..." type="text">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group input-group-dynamic mb-4">
+                                    <label class="form-label">Số điện thoại</label>
+                                    <input type="tel" class="form-control" placeholder="" aria-label="Last Name...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="input-group input-group-dynamic">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="input-group input-group-static mb-4">
+                            <label>Lời nhắn</label>
+                            <textarea name="message" class="form-control" id="message" rows="4"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn bg-gradient-dark w-100">Gửi lời nhắn</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
