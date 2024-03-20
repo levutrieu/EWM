@@ -1,0 +1,8 @@
+﻿# phục hồi các dependency từ Nuget
+dotnet restore
+
+# build
+dotnet build -c Release -o app/build
+
+# publish
+dotnet publish -c Release -o app/publish

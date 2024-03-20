@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EWM", "EWM.csproj", "{263B49E7-4A3E-48B0-BBFF-89E4872F76A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EWM", "EWM.csproj", "{263B49E7-4A3E-48B0-BBFF-89E4872F76A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVM_API", "..\EVM_API\EVM_API.csproj", "{561B5BE5-F70E-4E00-B354-240F4285FED1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{263B49E7-4A3E-48B0-BBFF-89E4872F76A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263B49E7-4A3E-48B0-BBFF-89E4872F76A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263B49E7-4A3E-48B0-BBFF-89E4872F76A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561B5BE5-F70E-4E00-B354-240F4285FED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561B5BE5-F70E-4E00-B354-240F4285FED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561B5BE5-F70E-4E00-B354-240F4285FED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561B5BE5-F70E-4E00-B354-240F4285FED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

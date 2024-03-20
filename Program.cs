@@ -1,5 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+//// Configure IIS Server
+//builder.Services.Configure<IISServerOptions>(options =>
+//{
+//    options.AutomaticAuthentication = false;
+//});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -14,6 +20,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
